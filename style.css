@@ -1,0 +1,95 @@
+body {
+    background-color: #e9ecef;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+h1 h2 h3 {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+nav {
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav section {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+#hero {
+    background-color: lightgrey;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+#hero h1 {}
+
+
+
+#skills {
+    background-color: rgb(29, 199, 225);
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#skills div {
+    font-size: 15px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    width: 75px;
+}
+
+#skills div:hover {
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+#projects {
+    margin-top: 40px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#experience {
+    background-color: rgb(245, 190, 190);
+    display: flex;
+
+}
+
+
+#contact {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+}
