@@ -329,3 +329,107 @@ footer a:hover {
     color: #6b7280;
     font-family: "Inter", sans-serif;
 }
+
+@media (max-width: 768px) {
+    nav {
+        padding: 16px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    nav section {
+        width: 100%;
+        gap: 16px;
+        flex-wrap: wrap;
+    }
+
+    #hero {
+        padding: 80px 20px 60px;
+    }
+
+    #hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-links {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card {
+        flex-direction: column;
+    }
+
+    .card img {
+        width: 100%;
+        min-width: 0;
+        height: auto;
+        aspect-ratio: 13 / 8;
+    }
+}
+
+@media (max-width: 480px) {
+    nav {
+        padding: 14px 16px;
+    }
+
+    nav section {
+        gap: 12px;
+    }
+
+    #hero {
+        padding: 64px 16px 48px;
+        gap: 14px;
+    }
+
+    #hero h1 {
+        font-size: 2rem;
+    }
+
+    #hero p {
+        font-size: 1rem;
+    }
+
+    .hero-links {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .hero-links a {
+        text-align: center;
+    }
+
+    #skills,
+    #projects,
+    #experience {
+        padding: 48px 16px;
+    }
+
+    .skills {
+        margin-bottom: 0;
+    }
+
+    .card,
+    .card-experience {
+        padding: 16px;
+    }
+
+    .card-links {
+        flex-wrap: wrap;
+    }
+
+    footer {
+        padding: 40px 16px;
+    }
+
+    footer section {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    footer a {
+        padding: 8px 16px;
+    }
+}
