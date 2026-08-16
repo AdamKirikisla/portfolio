@@ -194,9 +194,9 @@ nav a:hover {
 }
 
 .card img {
-    width: 260px;
-    min-width: 260px;
-    height: 160px;
+    width: 360px;
+    min-width: 360px;
+    height: 260px;
     object-fit: cover;
     border-radius: 8px;
     border: 2px solid #bc4749;
