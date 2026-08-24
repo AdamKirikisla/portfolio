@@ -10,7 +10,6 @@ Personal portfolio website showcasing my projects and skills as a co-op Software
 ## 🛠️ Built With
 - HTML
 - CSS
-- Google Fonts — Inter + Space Grotesk
 
 ---
 
