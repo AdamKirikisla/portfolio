@@ -257,7 +257,8 @@ nav a:hover {
 
 
 
-#experience {
+#experience,
+#education {
     padding: 60px 20px;
     display: flex;
     flex-direction: column;
@@ -268,7 +269,8 @@ nav a:hover {
     border-bottom: 1px solid #e0e0e0;
 }
 
-#experience h3 {
+#experience h3,
+#education {
     font-size: 1.5rem;
 }
 
