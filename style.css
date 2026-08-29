@@ -202,6 +202,15 @@ nav a:hover {
     border: 2px solid #bc4749;
 }
 
+
+.img-project img {
+    transition: transform 0.3s ease;
+}
+
+.img-project:hover img {
+    transform: scale(1.05);
+}
+
 .description-project {
     display: flex;
     flex-direction: column;
