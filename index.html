@@ -22,6 +22,10 @@
 
             <a href="#projects">Projects</a>
 
+            <a href="#experience">Experience</a>
+
+            <a href="#education">Education</a>
+
             <a href="#contact">Contact</a>
         </section>
 
@@ -32,11 +36,11 @@
 
         <section id="hero">
             <h1>Hey, I'm Adam</h1>
-            <p>I'm a Co-op Software Engineering student at Concordia University building 
-                and deploying full-stack applications with Node.js, Express, 
-                and MySQL. From authentication and relational databases to REST APIs, 
-                all shipped to production. Currently expanding into React. 
-                Bilingual in English and French.</p>
+            <p>I'm a Co-op Software Engineering student at Concordia University building
+                and deploying full-stack applications with Node.js, Express,
+                and MySQL. From authentication and relational databases to REST APIs,
+                all shipped to production. I also design CTF challenges for AtHackCTF
+                and make games in Godot. Bilingual in English and French.</p>
             <div class="hero-links">
                 <a href="#projects" class="btn-primary">View My Work</a>
                 <a href="https://github.com/AdamKirikisla" class="btn-secondary">GitHub</a>
@@ -52,20 +56,34 @@
             <div class="skills">Python</div>
             <div class="skills">JavaScript</div>
             <div class="skills">SQL</div>
+            <div class="skills">C</div>
             <div class="skills">HTML</div>
             <div class="skills">CSS</div>
+            <div class="skills">GDScript</div>
         </div>
 
         <h3>Frameworks & Technologies</h3>
         <div class="skills-container">
             <div class="skills">Node.js</div>
             <div class="skills">Express.js</div>
+            <div class="skills">React</div>
+            <div class="skills">MySQL</div>
+            <div class="skills">REST APIs</div>
+            <div class="skills">Godot 4</div>
         </div>
 
         <h3>Tools & Platforms</h3>
         <div class="skills-container">
-            <div class="skills">Git</div>
-            <div class="skills">Godot</div>
+            <div class="skills">Git/GitHub</div>
+            <div class="skills">Docker</div>
+            <div class="skills">Postman</div>
+            <div class="skills">VS Code</div>
+            <div class="skills">Render</div>
+            <div class="skills">Vercel</div>
+            <div class="skills">Aiven</div>
+            <div class="skills">Linux</div>
+            <div class="skills">Claude Code</div>
+            <div class="skills">GitHub Copilot</div>
         </div>
     </section>
 
@@ -80,9 +98,11 @@
                     </a>
                     <div class="description-project">
                         <h4>WebNova — Campus Events Platform</h4>
-                        <p class="card-tags">Made with: Node.js, Express, MySQL</p>
-                        <p class="card-desc">Full-stack CRUD app for campus events where admins create and manage events, students browse and
-                    register. Built for a web dev class, then hardened and deployed solo as a live demo.</p>
+                        <p class="card-tags">Made with: Node.js, Express, MySQL, bcrypt, express-session</p>
+                        <p class="card-desc">Full-stack CRUD platform for campus events where admins create and manage events, students browse and
+                    register. 17 REST API endpoints over a 4-table MySQL schema, with bcrypt password hashing and
+                    server-side role-based access control. Built as a team project for SOEN 287, then independently
+                    hardened (removed hardcoded secrets, fixed schema mismatches) and deployed on Render with Aiven.</p>
                         <div class="card-links">
                             <a href="https://webnova-campus-events.onrender.com">Live Demo ↗</a>
                             <a href="https://github.com/AdamKirikisla/webnova-campus-events-project">Code</a>
@@ -97,9 +117,10 @@
                     </a>
                 <div class="description-project">
                     <h4>To-Do List App</h4>
-                    <p class="card-tags">Made with: Node.js, Express, MySQL</p>
-                    <p class="card-desc">Full-stack task manager with user accounts, session-based authentication, and
-                        full CRUD for tasks, organize by category and priority, track progress, and filter your list.</p>
+                    <p class="card-tags">Made with: Node.js, Express, MySQL, bcrypt, express-mysql-session</p>
+                    <p class="card-desc">Full-stack task manager with user accounts, protected API routes, and
+                        full CRUD for tasks organized by category and priority. 9 REST API endpoints, with sessions
+                        persisted in MySQL instead of in memory. Deployed on Render with Aiven.</p>
                     <div class="card-links">
                         <a href="https://to-do-list-o4u6.onrender.com">Live Demo ↗</a>
                         <a href="https://github.com/AdamKirikisla/to-do-list">Code</a>
@@ -115,9 +136,10 @@
                     </a>
                     <div class="description-project">
                         <h4>Steal The RAM</h4>
-                        <p class="card-tags">Made with: GDScript, Godot 4</p>
-                        <p class="card-desc">Navigate a factory, defeat AI enemies, and steal their RAM. Full game with
-                            enemy AI, health system, HUD, menus, and audio.</p>
+                        <p class="card-tags">Made with: GDScript, Godot 4, MagicaVoxel</p>
+                        <p class="card-desc">3D action game: collect 3 RAM units from enemy robots to win, with a built-in
+                            speedrun timer. Features enemy AI, a health/armor system with medkit and armor pickups, HUD,
+                            menus, and audio. Levels and custom assets modeled from scratch in MagicaVoxel.</p>
                         <div class="card-links">
                             <a href="https://tikayz.itch.io/steal-the-ram">Play ↗</a>
                             <a href="https://github.com/AdamKirikisla/steal-the-ram">Code</a>
@@ -125,23 +147,26 @@
                     </div>
                 </div>
 
-
-
             </div>
+            <p class="more-projects">Also: Weather App, TV Show Search Tool, and Password Generator — vanilla
+                JavaScript apps built around third-party APIs and async data fetching.
+                <a href="https://github.com/AdamKirikisla">See them on GitHub ↗</a></p>
         </section>
 
         <section id="experience">
             <h3>Experience</h3>
             <div class="card-experience">
-                <h4>La Pizzeria Pointe</h4>
-                <span class="card-date">2021 – 2023</span>
-                <p>Managed the restaurant's Instagram page and created content, cooked and prepared menu items in a
-                    fast-paced kitchen, and handled customer orders and service.</p>
+                <h4>Challenge Designer — AtHackCTF 2027</h4>
+                <span class="card-date">Oct 2026 – Present</span>
+                <p>Hexploit Alliance, Concordia University — Selected to design CTF challenges for the AtHackCTF 2027
+                    competition and volunteer at the event. Previously event staff at AtHackCTF 2026.</p>
             </div>
             <div class="card-experience">
-                <h4>AtHackCTF — Volunteer</h4>
-                <span class="card-date">2024</span>
-                <p>Helped run a cybersecurity hackathon, managed participant check-in and on-site support.</p>
+                <h4>Food Service Associate — La Pizzeria Pointe</h4>
+                <span class="card-date">Sep 2021 – Sep 2023</span>
+                <p>Delivered in-person and online customer service in a fast-paced environment, handling orders and
+                    cash transactions accurately. Managed the restaurant's Instagram page, creating content to grow
+                    customer engagement.</p>
             </div>
         </section>
 
@@ -152,11 +177,13 @@
             <h4>Bachelor of Engineering – Software Engineering Co-op</h4>
             <span class="card-date">2026 – 2030 (Expected)</span>
             <p>Concordia University, Montreal, QC — Member of the Institute for Co-operative Education.</p>
+            <p>Relevant courses: Object-Oriented Programming I & II, Web Programming, System Hardware</p>
         </div>
         <div class="card-experience">
-            <h4>DEC en Sciences de la nature</h4>
+            <h4>DEC in Natural Sciences</h4>
             <span class="card-date">2023 – 2025</span>
-            <p>Cégep André-Laurendeau, Montréal, QC</p>
+            <p>Cégep André-Laurendeau, Montreal, QC</p>
+            <p>Relevant courses: Introduction à la programmation en Python</p>
         </div>
     </section>
 

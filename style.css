@@ -255,6 +255,27 @@ nav a:hover {
     color: #bc4749;
 }
 
+.more-projects {
+    width: 100%;
+    max-width: 820px;
+    margin: 0;
+    color: #6b7280;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.more-projects a {
+    color: #bc4749;
+    text-decoration: none;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.more-projects a:hover {
+    text-decoration: underline;
+}
+
 
 
 #experience,
@@ -270,7 +291,7 @@ nav a:hover {
 }
 
 #experience h3,
-#education {
+#education h3 {
     font-size: 1.5rem;
 }
 
@@ -414,7 +435,8 @@ footer a:hover {
 
     #skills,
     #projects,
-    #experience {
+    #experience,
+    #education {
         padding: 48px 16px;
     }
 

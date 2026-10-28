@@ -15,9 +15,10 @@ Personal portfolio website showcasing my projects and skills as a co-op Software
 
 ## 📌 Sections
 - **Hero** — intro and quick links
-- **Skills** — languages and tools
-- **Projects** — Steal the RAM, Movie Library
-- **Experience** — work and volunteer
+- **Skills** — languages, frameworks, and tools
+- **Projects** — WebNova, To-Do List App, Steal the RAM
+- **Experience** — work and technical involvement
+- **Education** — Concordia University, Cégep André-Laurendeau
 - **Contact** — links to GitHub, LinkedIn, email
 
 ---
