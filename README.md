@@ -17,7 +17,7 @@ Personal portfolio website showcasing my projects and skills as a co-op Software
 - **Hero** — intro and quick links
 - **Skills** — languages, frameworks, and tools
 - **Projects** — WebNova, To-Do List App, Steal the RAM
-- **Experience** — work and technical involvement
+- **Hackathons & Technical Involvement** — Hexploit Alliance / AtHackCTF
 - **Education** — Concordia University, Cégep André-Laurendeau
 - **Contact** — links to GitHub, LinkedIn, email
 
